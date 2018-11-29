@@ -1,0 +1,30 @@
+{
+  "name": "storybook-problem",
+  "version": "0.1.0",
+  "author": "Karl Merkli <karlmerkli@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "scripts": {
+    "start": "start-storybook -p 3001 -c config/storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^4.1.0-alpha.8",
+    "@storybook/addon-actions": "^4.1.0-alpha.8",
+    "@storybook/addon-links": "^4.1.0-alpha.8",
+    "@storybook/addon-notes": "^4.1.0-alpha.8",
+    "@storybook/addon-options": "^4.1.0-alpha.8",
+    "@storybook/addons": "^4.1.0-alpha.8",
+    "@storybook/cli": "^4.1.0-alpha.8",
+    "@storybook/react": "^4.1.0-alpha.8",
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.1",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/storybook__react": "^3.0.9",
+    "react-scripts": "2.1.0",
+    "typescript": "^3.1.4"
+  }
+}
